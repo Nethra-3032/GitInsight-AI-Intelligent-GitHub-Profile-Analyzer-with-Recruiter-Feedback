@@ -5,7 +5,7 @@ export default function Leaderboard() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/leaderboard")
+    axios.get("/api/leaderboard")
       .then(res => setUsers(res.data));
   }, []);
 
