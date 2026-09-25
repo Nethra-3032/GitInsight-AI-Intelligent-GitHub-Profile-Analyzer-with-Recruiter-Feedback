@@ -1,3 +1,0 @@
-git add .
-git commit -m "Add root route and 404 handler"
-git push
